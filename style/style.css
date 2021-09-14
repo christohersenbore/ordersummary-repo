@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+body{
+    background-image: url('../Assets/images/pattern-background-desktop.svg');
+    font-family: "Red Hat Display";
+}
+.card{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    width: 100%; 
+    top: 11%;
+    background-color: white;
+    margin: 10px 10px 100px 175px ;
+    max-width: 400px;
+    border-radius: 10px;
+}
+.card-content{
+    background-color: white;
+    align-content: center;
+    border-radius: 10px 10px 10px 10px;
+}
+.para{
+    color: grey;
+    justify-content: center;
+
+}
+.header{
+    font-weight: 700;
+    font-family: "Red Hat Display";
+}
+.img{
+    width: 32px;
+    height: 32px;
+}
+.link{
+    color: blue;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: "Red Hat Display";
+}
+.btn{
+    border: 0;
+    width: 300px;
+    padding: 10px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 5px;
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    box-shadow: 0 4px 10px blue;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Red Hat Display";
+}
+.cancel{
+    color: grey;
+    font-size: 11px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-family: "Red Hat Display";
+}
+.plan{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    margin: auto;
+    font-family: "Red Hat Display";
+    
+}
+.annual{
+    font-family: "Red Hat Display";
+    font-size: 11px;
+    font-weight: 700;
+    margin-right: 150px;
+    margin-left: 15px;
+    line-height: 1.5;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+}
+span{
+    color: grey;
+    font-size: 11px;
+    font-weight: 700;
+}
+.bck{
+    border-radius: 10px 10px 0 0;
+}
+ 
+    
